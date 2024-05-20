@@ -1,0 +1,94 @@
+<div class="container-fluid">
+  <div class="row align-items-center text-center vh-100">
+    <!-- Seção do Título -->
+    <div class="col-12 mb-2">
+      <h1 class="display-4">Seja Bem-vindo ao</h1>
+      <h2 class="mt-2">Sistema de Usuários</h2>
+    </div>
+
+    <!-- Seção das Boxes -->
+    <div class="col-12 d-flex justify-content-center mt-2">
+      <!-- Box de Usuários -->
+      <div class="card text-center me-4 shadow-sm" style="width: 10rem; border-radius: 15px;"> <!-- Reduzido para 10rem -->
+        <div class="card-body">
+          <h3 class="card-title">Usuários</h3>
+          <h4 class="card-subtitle mt-3" style="font-size: 2rem;">66</h4> <!-- Ajustado o tamanho da fonte -->
+        </div>
+      </div>
+
+      <!-- Box da Tabela -->
+      <div class="card w-50 shadow-sm" style="border-radius: 30px;">
+        <table class="table table-dark table-hover text-center mb-0" style="border-radius: 30px;">
+          <thead>
+            <tr>
+              <th scope="col">Função</th>
+              <th scope="col">Quantidade de Usuários</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Analista de Dados</td>
+              <td>33</td>
+            </tr>
+            <tr>
+              <td>Líder Técnico</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Engenheiro de Frontend</td>
+              <td>21</td>
+            </tr>
+            <tr>
+              <td>Engenheiro de Backend</td>
+              <td>4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .vh-100 {
+    height: 100vh;
+  }
+  .card {
+    border-radius: 30px;
+  }
+  .table {
+    border-radius: 30px;
+  }
+  .shadow-sm {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .card-subtitle {
+    font-size: 2rem; /* Tamanho ajustado para 2rem */
+    font-weight: bold;
+    color: #6c757d;
+  }
+  .mb-2 {
+    margin-bottom: 1rem !important;
+  }
+  .mt-2 {
+    margin-top: 0.5rem !important;
+  }
+  .table-dark {
+    background-color: #343a40;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+    border-radius: 30px;
+  }
+  .table-dark th,
+  .table-dark td {
+    border-top: none;
+  }
+  .table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+  }
+</style>
